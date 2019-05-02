@@ -1,3 +1,3 @@
 # el_medio_cielo / / Mobile First
-Site de coaching et prise de rendez-vous React / Context / Hooks / Node / Internationalisation
+Site de coaching et prise de rendez-vous avec e-mail envoyé au client et à la consultante
 ![alt text](https://github.com/EmericReactJS/el-medio-cielo/raw/master/client/el-medio-cielo.png)
