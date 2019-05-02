@@ -1,0 +1,97 @@
+{
+  "Banner": {
+    "main": "El Medio Cielo",
+    "title_a": "Meditations et autres",
+    "title_b": "outils de pouvoir"
+  },
+  "Nav": {
+    "Medio": {
+      "main": "Le Medio Cielo",
+      "mission": "Notre mission",
+      "about": "Mon parcours"
+    },
+    "Servicios": {
+      "main": "Services",
+      "lecture": "Lecture integrale",
+      "coaching": "Coaching personalisé"
+    },
+    "Recursos": {
+      "main": "Ressources",
+      "meditation": "Meditation thématiques y videos en Youtube",
+      "social": "Publications sur Instagram"
+    },
+    "Testimonios": "On dit de moi (Temoignages)",
+    "Contacto": "Contact"
+  },
+  "Medio": {
+    "title": "Notre Mission",
+    "p_lead": "Autoconnaissance y sanación holística y consciente,",
+    "p_second_a": "",
+    "p_second_b": "Le Medio Cielo es, en Astrología, el punto más alto de la carta natal. Refleja el potencial único de cada Ser, nuestras ambiciones en el ámbito profesional, las aspiraciones de impacto social, y nuestra Misión de Vida para elevarnos. Elegí este nombre ya que este proyecto porque significa para mí alinearme con mi Misión y aquello que me siento llamada a hacer: ayudar a personas a evolucionar, a reencontrar su camino, su autenticidad, a alinearse con sus metas y anhelos más profundos. Ayudarlas a sanar, à transformar lo que sientan que debe ser transmutado en su vida, y a reencontrarse con su verdadera y más profunda esencia."
+  },
+  "Acerca": {
+    "title": "Mon Parcours",
+    "p_lead": "Salut, c'est Sabrina!",
+    "p_second_a": "Enseignant depuis longtemps, soy también una gran apasionada de la astrología y de otros lenguajes como el Tarot y los Registros Akáshicos. Estudié Psicología en Lyon, Francia, para conocer los misterios del alma humana, y decidí orientar mis estudios hacia la cuestiôn de género. Hace algunos años, a fines de 2011, sentí un llamado profundo de mi interior, un despertar espiritual que me llevô a descubrir el poder de la intuición y a conectar con los Maestros Ascendidos a través de los Registros Akáshicos. Pero desde mucho antes ya me sentía conectada a una presencia divina que me guiaba.",
+    "p_second_b": "Toujours las técnicas de resiliencia y de sanaciôn alternativas à la medicina alopática que conocemos. La sanación emocional, de los cuerpos sutiles y de todo aquello que no podemos ver pero pero nos afecta me parece la llave de la sanación del cuerpo físico.",
+    "p_second_c": "J'ai appris sobre los temas que más me interesan mediante cursos, carreras y también de manera autodidacta: desde Psicología en la Universidad de Lyon, hasta astrología, PNL (programación neurolingüística), coaching y liderazgo, pasando por cursos de Reiki, tarot intuitivo, técnicas de liberación emocional, iniciación al poder de los minerales (piedras, cristales) y facilitación de círculos de mujeres, entre otras cosas.",
+    "p_second_d": "Les pratiques que me acompañaron en este camino son el dao in, tai chi chuan, yoga nidra, yoga kundalini, pranayama, budismo,  meditación y mindfulness. En este momento me estoy formando en CNV (Comunicación no violenta) en Lyon, Francia, lugar en el que resido hace varios años."
+  },
+  "Servicios": {
+    "title": "Services",
+    "subtitle": "Rencontres presenciales (si estas en Lyon, Francia) o a distance (videollamada o envîo de la lectura en forma de audios)",
+    "lecture": {
+      "title": "Lecture integrale",
+      "presentation": "La lecture integrale es un momento de encuentro energético que dura entre 75 y 90 minutos. À través de diferentes . . . ",
+      "more": "langues comme la astrología (carta natal) y los Registros Akáshicos, y los arcanos del Tarot hablamos sobre tus potenciales y los aspectos de la vida en los que puedes profundizar para desarrollarte al máximo! Este tipo de lectura sirve para descubrir o despertar talentos dormidos y ponerlos en funcionamiento, por ende te ayuda à conocerte mejor y à reconectar con ese poder con el que viniste al mundo: tu Misión de Vida. También nos conecta con esos aspectos que requieren especial atención y/o sanaciôn para que puedas dar tu próximo paso hacia la felicidad y el éxito. Si lo que buscas es un espacio de predicciones, trabajos en perjuicio de alguien, saber “qué va à pasar con”... o videncia, este NO es tu lugar, ya que mis lecturas apuntan à la toma de consciencia, de poder personal y a la sanación del alma.",
+      "button": "Click pour compléter el formulario y recibir más información!"
+    },
+    "coaching": {
+      "title": "Coaching personalisé",
+      "presentation": "Les sessions de coaching son un momento de encuentro energético que dura entre 90 minutos por sesión. . .",
+      "more": "Les réunions pueden ser semanales, quincenales o cada 3 semanas, dependiendo de la complejidad de lo que desees trabajar en tu vida y à fin de desbloquear o comprender ciertas temáticas. En estas sesiones de acompañamiento personal voy à ayudarte à lograr transformar los aspectos limitantes en aspectos posibilitantes. Movilizamos diferentes tipos de ejercicios tales como la visualización creativa, la meditación, el mindfulness, la PNL (programación neurolinguistica), afirmaciones positivas (mantras personales), entre otras técnicas de desarrollo personal. Todas ellas estarán al servicio de los procesos necesarios para que logres tus objetivos!",
+      "button": "Click pour compléter el formulario y recibir más información!"
+    }
+  },
+  "Comentarios": {
+    "main": "Temoignages"
+  },
+  "Recursos": {
+    "main": "Ressources gratuites",
+    "title_a": "Youtube",
+    "title_b": "Instagram"
+  },
+  "Footer": {
+    "main": "Retrouve moi sur les réseaux"
+  },
+  "Lectura": {
+    "main": {
+      "lecture": "Lecture Intégrale",
+      "coaching": "Coaching personalisé"
+    },
+    "title": "Formulaire d'introduction",
+    "form": {
+      "name": "Nom Prénom",
+      "holderName": "Nom",
+      "validName": "enchantée!",
+      "email": "E-mail",
+      "holderMail": "mail@mail.com",
+      "validEmail": "vous recevrez une confirmation par mail",
+      "birth": "Date d'anniversaire",
+      "place": "Lieu de naissance",
+      "holderPlace": "Ville",
+      "time": "Heure de naissance",
+      "holderTime": "si vous la connaissez",
+      "availability": "Disponibilité",
+      "workdays": "Lundi au Vendredi",
+      "weekends": "Samedi",
+      "modality": "Consultation",
+      "meet": "En présentiel",
+      "distance": "A distance",
+      "message": "Message",
+      "holderMessage": "Questions ou suggestions",
+      "button": "Envoyer",
+      "subButton": "Une solliciation pour un rendez-vous avec Sabrina sera envoyée"
+    }
+  }
+}

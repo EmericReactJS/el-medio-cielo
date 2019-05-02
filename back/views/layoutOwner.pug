@@ -1,0 +1,33 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    style.
+            .cyan{
+                background-color: rgba(46, 196, 182, 1);
+            }
+  body
+    table.table(cellpadding="10", cellspacing="0")
+            tr  
+                td  
+                    h2 Nueva cita por em#{name} 
+            tr
+                td
+                    p Fecha de Nacimiento em#{birth}
+            tr  
+                td  
+                    p Lugar de nacimiento em#{place}
+            tr  
+                td  
+                    p Hora de nacimiento em#{hour}
+            tr  
+                td  
+                    p Disponibilidad: 
+                    p Semana: #{disponibility.semana}
+                    p Fines: #{disponibility.fines}
+            tr  
+                td  
+                    p Consulta:
+                    p Presencial: #{modality.casa}
+                    p Distancia: #{modlaity.distancia}

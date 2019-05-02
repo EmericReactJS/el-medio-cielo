@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  margin: auto;
+}
+
+/* ----- MainBanner Component ----- */
+
+.mainbanner {
+  display: flex;
+  min-width: 100%;
+  min-height: 39vh;
+  max-height: 40vh;
+  background-image: url('assets/Fond1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bannertitle {
+  max-width: 60%;
+  padding: 2vw 2vh;
+  margin: auto;
+}
+
+.bannertitle button {
+  margin: auto;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  letter-spacing: 0.2em;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2em 2em;
+  border: none;
+  outline: none;
+}
+
+.bannertitle button:hover {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  text-decoration: none;
+}
+
+.bannertitle button:active {
+  outline: blue;
+}
+
+.bannertitle h1 {
+  font-size: 5vw;
+}
+
+.bannertitle h4 {
+  font-size: 1.8vw;
+}
+
+@media screen and (max-width: 420px) {
+  .bannertitle h4 {
+    font-size: 3vw;
+  }
+}
+
+/* ----- MainNav Component ----- */
+
+.mainnav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 4vh 1vw;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  font-size: 1.5vw;
+  background-color: white;
+  border-top: 1px solid black;
+  z-index: 1;
+}
+
+.mainnav * {
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  padding: 0.7vh 1vw;
+  box-sizing: content-box;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.mainnav .buttonNav {
+  background-color: transparent;
+}
+
+.mainnav *:hover {
+  color: rgba(255, 159, 28, 1);
+  text-decoration: none;
+}
+
+.mainnav .dropdown-item {
+  font-size: 1.3vw;
+  min-width: 20vw;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 420px) {
+  .mainnav {
+    margin: 0;
+    font-size: 4.5vw;
+  }
+  .mainnav * {
+    width: 95%;
+  }
+  .mainnav .dropdown-item {
+    font-size: 3vw;
+  }
+}
+
+/* ----- About Component ----- */
+
+.about h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.4vw;
+  letter-spacing: 0.3vw;
+  color: rgba(255, 159, 28, 1);
+  border-bottom: 2px solid rgba(255, 159, 28, 0.8);
+  line-height: 12vh;
+}
+
+.about .row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.jumbotron {
+  width: 70vw;
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+  background-color: transparent;
+}
+
+.jumbotron img {
+  width: 24vw;
+}
+
+.jumbotron .textJumbo {
+  padding: 3vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.jumbotron .lead {
+  margin-bottom: 3vh;
+  font-size: 1.6vw;
+}
+
+@media screen and (max-width: 420px) {
+  .about h3 {
+    font-size: 10vw;
+    border-bottom: none;
+  }
+  .jumbotron img {
+    width: 35vw;
+  }
+  .jumbotron .lead {
+    font-size: 4vw;
+  }
+  .jumbotron .textJumbo{
+    font-size: 3.5vw;
+    padding: 0;
+  }
+}
+
+/* ----- Services Component ----- */
+
+.services {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 60vh;
+  background-image: url('./assets/textures/waves.png');
+}
+
+.services .titleservices {
+  flex-direction: column;
+  align-content: center;
+}
+
+.services p {
+  font-size: 1.8vw;
+  letter-spacing: 0.1vw;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 3vh auto;
+  padding: 3vh 3vw;
+}
+
+.services h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.4vw;
+  font-weight: 300;
+  letter-spacing: 0.3vw;
+  align-self: center;
+  margin: 2vh auto;
+  color: rgba(46, 196, 182, 1);
+  border-bottom: 2px solid rgba(46, 196, 182, 1);
+  display: inline-block;
+  line-height: 12vh;
+}
+
+.services .products {
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.servicios {
+  max-width: 35vw;
+  margin-bottom: 10vh;
+}
+
+.services .cardtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6vw;
+  letter-spacing: 0.1vw;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.services .card-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 1.4vw;
+  padding: 0;
+}
+
+.services img {
+  display: block;
+  box-sizing: content-box;
+  max-width: 23vw;
+  margin: 2vh auto;   
+}
+
+.services .servicesbutton {
+  margin-top: 0.3vh;
+  background-color: rgba(46, 196, 182, 1);
+  font-size: 1.4vw;
+}
+
+@media screen and (max-width: 420px) {
+  .services h1 {
+    font-size: 10vw;
+    border-bottom: none;
+    margin: 0;
+  }
+  .services p {
+    font-size: 3.5vw;
+    text-align: center;
+    margin: 3vh 3vw;
+  }
+  .servicios {
+    min-width: 80vw;
+  }
+  .services .cardtitle {
+    font-size: 4vw;
+  }
+  .services .card-text {
+    font-size: 3.5vw;
+  }
+  .services img {
+    min-width: 40vw;
+    margin: 5vw auto;
+  }
+  .services .servicesbutton {
+    font-size: 4vw;
+  }
+}
+
+/* ----- Reviews Component ----- */
+
+.reviews {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 35em;
+}
+
+.reviews h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.4vw;
+  font-weight: 300;
+  letter-spacing: 0.3vw;
+  align-self: center;
+  margin: 1em auto 1em;
+  color: rgba(255, 159, 28, 1);
+  border-bottom: 2px solid rgba(255, 159, 28, 1);
+  display: inline-block;
+  line-height: 12vh;
+}
+
+.reviews .reviewscomment {
+  max-width: 70vw;
+}
+
+@media screen and (max-width: 420px) {
+  .reviews h1 {
+    font-size: 10vw;
+    border-bottom: none;
+  }
+  .reviewscomment > .col {
+    padding: 6vw;
+  }
+  .reviews h5 {
+    font-size: 4vw;
+  }
+  .reviews h2 {
+    font-size: 6vw;
+  }
+}
+
+/* ----- Social Component ----- */
+
+.social {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 4vh;
+}
+
+.socialMainTitle h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.4vw;
+  font-weight: 300;
+  letter-spacing: 0.3vw;
+  align-self: center;
+  margin: 1em auto 1em;
+  color: rgba(46, 196, 182, 1);
+  border-bottom: 2px solid rgba(46, 196, 182, 1);
+  display: inline-block;
+  line-height: 12vh;
+}
+
+.social .socialtitle {
+  padding: 0;
+  word-wrap: break-word;
+}
+
+.social h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.4vw;
+  font-weight: 300;
+  letter-spacing: 0.3vw;
+  align-self: center;
+  margin: 3vh auto;
+  color: rgba(46, 196, 182, 1);
+}
+
+.social .socialimage {
+  margin: 3vh 3vw;
+  text-align: center;
+}
+
+.social .socialvideo {
+  margin: 3vh 3vw;
+  text-align: center;
+}
+
+.social img {
+  max-width: 18vw;
+}
+
+@media screen and (max-width: 420px) {
+  .social h1 {
+    font-size: 10vw;
+    border-bottom: none;
+  }
+  .social .socialimage {
+    flex-direction: column;
+  }
+  .social .socialmore {
+    text-align: center;
+  }
+  .social .socialmore a {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .social img {
+    min-width: 70vw;
+    margin: 3vh;
+  }
+}
+
+/* ----- Footer Component ----- */
+
+.footer {
+  justify-content: space-around;
+  margin-top: 9vh;
+  padding: 2vw 2w;
+  /*  */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer .footerTitle {
+  background-color: rgba(255, 159, 28, 0.5);
+  z-index: 10;
+}
+
+.footer .footerTitle h2 {
+  margin: auto;
+  text-align: center;
+}
+
+.footer .footericons {
+  padding-top: 2vh;
+  align-self: center;
+  text-align: center;
+  background-color: rgba(255, 159, 28, 1);
+}
+
+.footer .mailLink {
+  background-color: rgba(255, 159, 28, 1);
+}
+
+.footer .footericons * {
+  font-size: 4vw;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.footer a {
+  font-size: 2vw;
+  margin: 3vh auto;
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 420px) {
+  .footer .footerTitle h2 {
+    font-size: 6vw;
+  }
+  .footer .footericons * {
+    font-size: 8vw;
+  }
+  .footer a {
+    font-size: 6vw;
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+  }
+  .footer .mailLink a {
+    font-size: 5vw;
+  }
+}
+
+/* ----- Lecture & Coaching Component ----- */
+
+.wrapperform {
+  flex-direction: row;
+  justify-content: center; 
+  max-height: auto;
+  background-image: url('./assets/textures/waves.png');
+}
+
+.wrapperform .card {
+  margin: 2vh auto;
+}
+
+.wrapperform .lecturecard {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6vw;
+  letter-spacing: 0.1vw;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.formuser {
+  min-width: 50%;
+  margin: 1vh auto;
+  padding: 1vw;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
+  color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.formuser input {
+  font-size: 1.5vw;
+}
+
+.dispoWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 3vh;
+}
+
+.dispoLabel {
+  flex-basis: 100%;
+}
+
+.checkWrapper {
+  position: relative;
+  height: 10vh;
+  padding-left: 40vw;
+  margin: 1vw;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkWrapper:hover .checkButton + .checkMark {
+  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+}
+
+.checkWrapper .checkButton:checked ~ .checkMark {
+  border: 1px solid rgba(46, 196, 182, 1); 
+}
+
+.checkButton {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkMark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 2vh;
+  font-size: 2vw;
+  color: rgba(0, 0, 0, 0.7) !important;
+  background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  border: 1px solid rgba(179, 179, 179, 0.7);
+  border-radius: 10px 10px;
+}
+
+.formuser .orderbutton {
+  max-width: 20vw;
+  align-self: center;
+  background-color: rgba(46, 196, 182, 1);
+  font-size: 1.8vw;
+}
+
+.formuser span {
+  color: red;
+}
+
+.lecturejumbotron {
+  max-width: 80%;
+  padding: 3vw;
+}
+
+.lecturejumbotron .row {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 1.3vw;
+}
+
+@media screen and (max-width: 420px) {
+  .wrapperform {
+    min-height: 150vh;
+  }
+  .wrapperform .lecturecard {
+    font-size: 4vw;
+  }
+  .formuser {
+    font-size: 3.5vw;
+  }
+  .formuser input {
+    font-size: initial;
+  }
+  .checkMark {
+    font-size: 4.2vw;
+  }
+  .formuser .orderbutton {
+    font-size: 3vw;
+  }
+}
